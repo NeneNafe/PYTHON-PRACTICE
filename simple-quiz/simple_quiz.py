@@ -41,9 +41,3 @@ else:
 
 print("You got " + str(score) + " questions correct!")
 print("You got " + str((score / 4) * 100) + "%.")
-
-total_score = input(score / 4 * 100)
-if total_score == (score / 4 * 100):
-    print("Congratulations!! You are a a Genius! ;)")
-else:
-    print("Better Luck Next time!")
